@@ -1,3 +1,6 @@
+
+# ------------------ Practice 01 ---------------
+
 print("Welcome to the rollercoaster!")
 
 height = int(input("What's your height in cm? "))
@@ -8,6 +11,21 @@ else:
     print("Sorry, you have to grow taller before you can ride.")
 
 
+# ------------------ Practice 02 ---------------
+print("Welcome to the game mode")
+
+age = int(input("What's your age? \n"))
+
+if age < 5:
+    print("You are child not play game")
+elif age <= 5:
+    print("You are child. Play the Subway Surfers")
+elif age == 10:
+    print("Play the football ")
+elif age >= 20:
+    print("Play free fire")
+else:
+    print("Your age is overrated. Please exercise")
 
 # -------------- Note ------------
 # == Equal to
