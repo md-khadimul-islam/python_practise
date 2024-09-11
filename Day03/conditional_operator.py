@@ -22,7 +22,7 @@ elif age <= 5:
     print("You are child. Play the Subway Surfers")
 elif age == 10:
     print("Play the football ")
-elif age >= 20:
+elif age <= 20:
     print("Play free fire")
 else:
     print("Your age is overrated. Please exercise")
@@ -33,3 +33,13 @@ else:
 # < less than
 # <= less than equal
 # >= getter than equal
+
+
+# --------------------- odd or even number check -------------------
+
+number = int(input())
+
+if number % 2 == 0:
+    print("This is an even number.")
+else:
+    print("This is and odd number.")
