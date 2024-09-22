@@ -17,7 +17,7 @@ print("The Love Calculator is calculating your score...")
 name1 = input()
 name2 = input()
 
-combineName = name1 + name1
+combineName = name1 + name2
 
 name = combineName.lower()
 
